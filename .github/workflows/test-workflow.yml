@@ -1,10 +1,13 @@
+---
 name: Test Workflow
-on: [push]
+on:
+  - push
 jobs:
   build:
     strategy:
       matrix:
-        python-version: [3.9]
+        python-version:
+          - 3.9
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Step
@@ -12,13 +15,13 @@ jobs:
         with:
           token: ${{ secrets.WF_ACCESS_TOKEN }}
           submodule: recursive
-     - name: Setup Python ${{ matrix.python-version }}
-       uses: actions/setup-python@v2
+      - name: Setup Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
         with:
           python-version: ${{ matrix.python-version }}
-          cache: 'pip'
+          cache: pip
           cache-dependency-path: |
             python/requirements.txt
-     - name: Install dependencies
-       run: |
-         python -m pip install -r python/requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install -r python/requirements.txt
