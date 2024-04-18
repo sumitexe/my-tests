@@ -1,279 +1,279 @@
 aiodns==1.1.1
 ansi2html==1.5.2
 anthropic==0.2.9
-asana==0.7.1
-asn1==2.7.0
-asn1crypto==1.5.1
-astroid==2.0.1
-async-lru==0.1.0
-atomicwrites==1.4.1
-attrdict==2.0.0
-attrs==21.4.0
-autobahn==20.12.3
-autoflake==1.2
-Automat==0.7.0
-aws-secretsmanager-caching==1.1.1.4
-awscli==1.29.59
-backcall==0.1.0
-bai-file-processor==1.0.0
-bcrypt==3.1.4
-beautifulsoup4==4.6.3
-bintrees==2.0.7
-bit==0.4.3
-bitcoin==1.1.39
-bitmex-ws==0.3.1
-blinker==1.4
-boto3==1.28.38
-botocore==1.31.38
-btfxwss==1.2.4
-bumpversion==0.5.3
-cachetools==4.0.0
-captcha==0.2.4
-cbpro==1.1.4
-ccxt==1.47.1
-certifi==2023.11.17
-chardet==3.0.4
-clickhouse-driver==0.2.3
-codemod==1.0.0
-colorama==0.3.9
-confluent-kafka==1.6.0
-constantly==15.1.0
-coverage==6.4.4
-crc16==0.1.1
-croniter==2.0.1
-cryptography==41.0.6
-cryptos==1.36
-cssmin==0.2.0
-databricks-sql-connector==2.0.2
-dateparser==1.1.2
-decorator==4.3.0
-defusedcsv==2.0.0
-detect-secrets==0.14.3
-dictdiffer==0.9.0
-dnspython==1.16.0
-docopt==0.6.2
-docusign-esign==3.17.0
-docutils==0.14
-ecdsa==0.13.3
-ed25519==1.4
-essential-generators==1.0
-eth-abi==1.3.0
-eth-account==0.3.0
-eth-bloom==1.0.0
-eth-hash==0.3.3
-eth-keyfile==0.5.1
-eth-keys==0.2.4
-eth-rlp==0.2.1
-eth-typing==2.2.1
-eth-utils==1.9.5
-eventlet==0.30.2
-Events==0.3
-fakeredis==1.10.1
-falconx==1.0.0
-feedparser==6.0.10
-fido2==1.0.0
-fireblocks-sdk==1.22.1
-flake8==3.5.0
-Flask==1.0.2
-Flask-Assets==0.12
-Flask-Bcrypt==0.7.1
-Flask-CDN==1.5.3
-Flask-Compress==1.4.0
-Flask-Cors==3.0.10
-Flask-Login==0.4.1
-Flask-S3==0.3.3
-Flask-SocketIO==4.3.0
-Flask-SQLAlchemy==2.3.2
-Flask-SSLify==0.1.5
-flask-talisman==0.6.0
-Flask-Versioned==0.9.4.post20101221
-Flask-Webpack==0.1.0
-Flask-WTF==0.14.3
-freshsales==1.0.0
-git-lint==0.1.2
-githubrelease==1.5.8
-google-api-python-client==1.7.8
-google-auth-httplib2==0.0.3
-google-auth-oauthlib==0.3.0
-google-cloud-aiplatform==1.38.1
-google-search-results==2.4.2
-greenlet==1.1.2
-grpcio==1.58.0
-gspread==3.1.0
-gunicorn==19.9.0
-hexbytes==0.3.0
-html-linter==0.4.0
-hyper==0.7.0
-hyperlink==20.0.1
-idna==3.4
-idna-ssl==1.1.0
-incremental==17.5.0
-influxdb==5.3.0
-intrinio-sdk==6.24.0
-ipython==7.31.1
-ipython-genutils==0.2.0
-isort==4.3.4
-itsdangerous==0.24
-jedi==0.12.0
-Jinja2==2.11.3
-jmespath==0.9.3
-jsondiff==2.0.0
-jsonschema==3.2.0
-lazy-object-proxy==1.3.1
-logzero==1.7.0
-logzio-python-handler==3.1.1
-lru-dict==1.1.6
-MarkupSafe==1.1.1
-marshmallow==2.19.2
-mccabe==0.6.1
-mnemonic==0.18
-more-itertools==4.2.0
-msgpack==0.6.0
-multidict==4.7.5
-mysql-connector-python==8.0.33
-ndg-httpsclient==0.5.0
-netdisco==1.5.0
-netifaces==0.10.7
-newrelic==8.4.0
-numerize==0.12
-numpy==1.22.2
-oauth2client==4.1.3
-oauthlib==2.1.0
-# TODO:(prathab) remove this
-openai==1.11.1
-openpyxl==3.0.7
-opensearch-py==2.3.2
-opentelemetry-distro==0.40b0
-opentelemetry-exporter-prometheus-remote-write==0.40b0
-opentelemetry-instrumentation-flask==0.40b0
-OrderBook==0.1.2
-pandas==1.4.2
-paramiko==2.11.0
-parsimonious==0.8.0
-pathlib2==2.3.2
-pbkdf2==1.3
-pbr==4.2.0
-pdfkit==1.0.0
-pexpect==4.6.0
-PGPy==0.6.0
-pickleshare==0.7.4
-pinecone-client==2.2.1  # defi only
-pkginfo==1.4.2
-pluggy==0.6.0
-pre-commit==2.18.1
-PrettyTable==0.7.2
-prometheus-client==0.14.1
-prompt-toolkit==1.0.15
-protobuf==3.20.2
-ptyprocess==0.6.0
-pusher==2.0.1
-py==1.11.0
-py-ecc==1.4.3
-py-solc==2.2.0
-pyasn1==0.4.8
-pyasn1-modules==0.2.8
-pycodestyle==2.3.1
-pycoin==0.80
-pycparser==2.18
-pycryptodome==3.14.1
-pydantic==2.6.1
-pyethash==0.1.27
-pyflakes==1.6.0
-PyGithub==1.55
-Pygments==2.7.4
-PyHamcrest==2.0.3
-PyJWT==2.4.0
-pylint==2.0.1
-pymupdf==1.22.5
-pyOpenSSL==23.2.0
-pyotp==2.2.6
-PyPDF2==3.0.1
-PyPika==0.44.0
-pyqldb==3.2.3
-PySocks==1.6.8
-pytest==3.6.3
-pytest-cov==2.6.1
-python-binance==0.7.10
-python-bitcoinrpc==1.0
-python-datauri==0.2.8
-python-dateutil==2.8.2
-python-dotenv==1.0.0
-python-engineio==3.12.1
-python-http-client==3.2.7
-python-snappy==0.6.1
-python-socketio==4.6.0
-pytz==2018.5
-PyYAML==5.4
-ratelimiter==1.2.0.post0
-redis==2.10.6
-redis-py-cluster==1.3.4
-redlock-py==1.0.8
-regex==2018.7.11
-requests==2.27.1
-requests-oauthlib==0.8.0
-requests-toolbelt==0.8.0
-rlp==2.0.1
-rsa==4.7
-s3transfer==0.1.13
-seaborn==0.9.0
-selenium==3.141.0
-semantic-version==2.6.0
-sendgrid==5.4.1
-sentence-splitter==1.4
-sentry-sdk==1.40.4
-service_identity==18.1.0
-signalr-client-aio==0.0.1.6.2
-signalr-client-threads==0.0.8
-simplefix==1.0.12
-simplegeneric==0.8.1
-simplejson==3.16.0
-six==1.12.0
-SkPy==0.9
-slackclient==2.7.1
-socketIO-client==0.7.2
-sortedcontainers==2.1.0
-SQLAlchemy==1.3.3
-sseclient==0.0.19
-stellar-base==0.1.9.1
-stevedore==1.29.0
-stompest==2.3.0
-structlog==23.2.0
-tabulate==0.8.7
-Telethon==1.29.2
-template-remover==0.1.9
-tenacity==8.0.1
-termcolor==1.1.0
-tiktoken==0.3.3
-timeout-decorator==0.4.1
-tldextract==3.0.1
-toml==0.9.4
-toolz==0.9.0
-trafilatura==1.4.1
-traitlets==4.3.2
-trie==1.3.7
-tweepy==4.12.1
-twine==1.11.0
-twisted==22.4.0
-twitter==1.18.0
-typing-extensions==4.9.0
-tzlocal==1.5.1
-uPnPClient==0.0.8
-urllib3==1.26.18
-user-agents==1.1.0
-validate-email==1.3
-wcwidth==0.1.7
-web3==4.10.0
-webargs==5.5.3
-webassets==0.12.1
-websocket-client==1.2.1
-websockets==9.1
-Werkzeug==0.15.5
-wrapt==1.10.11
-xlsxwriter==3.0.3
-xmltodict==0.12.0
-yarl==1.1.0
-yfinance==0.2.35
-youtube_transcript_api==0.6.0
-yubico_client==1.13.0
-zeroconf==0.20.0
-zope.interface==4.7.2
+# asana==0.7.1
+# asn1==2.7.0
+# asn1crypto==1.5.1
+# astroid==2.0.1
+# async-lru==0.1.0
+# atomicwrites==1.4.1
+# attrdict==2.0.0
+# attrs==21.4.0
+# autobahn==20.12.3
+# autoflake==1.2
+# Automat==0.7.0
+# aws-secretsmanager-caching==1.1.1.4
+# awscli==1.29.59
+# backcall==0.1.0
+# bai-file-processor==1.0.0
+# bcrypt==3.1.4
+# beautifulsoup4==4.6.3
+# bintrees==2.0.7
+# bit==0.4.3
+# bitcoin==1.1.39
+# bitmex-ws==0.3.1
+# blinker==1.4
+# boto3==1.28.38
+# botocore==1.31.38
+# btfxwss==1.2.4
+# bumpversion==0.5.3
+# cachetools==4.0.0
+# captcha==0.2.4
+# cbpro==1.1.4
+# ccxt==1.47.1
+# certifi==2023.11.17
+# chardet==3.0.4
+# clickhouse-driver==0.2.3
+# codemod==1.0.0
+# colorama==0.3.9
+# confluent-kafka==1.6.0
+# constantly==15.1.0
+# coverage==6.4.4
+# crc16==0.1.1
+# croniter==2.0.1
+# cryptography==41.0.6
+# cryptos==1.36
+# cssmin==0.2.0
+# databricks-sql-connector==2.0.2
+# dateparser==1.1.2
+# decorator==4.3.0
+# defusedcsv==2.0.0
+# detect-secrets==0.14.3
+# dictdiffer==0.9.0
+# dnspython==1.16.0
+# docopt==0.6.2
+# docusign-esign==3.17.0
+# docutils==0.14
+# ecdsa==0.13.3
+# ed25519==1.4
+# essential-generators==1.0
+# eth-abi==1.3.0
+# eth-account==0.3.0
+# eth-bloom==1.0.0
+# eth-hash==0.3.3
+# eth-keyfile==0.5.1
+# eth-keys==0.2.4
+# eth-rlp==0.2.1
+# eth-typing==2.2.1
+# eth-utils==1.9.5
+# eventlet==0.30.2
+# Events==0.3
+# fakeredis==1.10.1
+# falconx==1.0.0
+# feedparser==6.0.10
+# fido2==1.0.0
+# fireblocks-sdk==1.22.1
+# flake8==3.5.0
+# Flask==1.0.2
+# Flask-Assets==0.12
+# Flask-Bcrypt==0.7.1
+# Flask-CDN==1.5.3
+# Flask-Compress==1.4.0
+# Flask-Cors==3.0.10
+# Flask-Login==0.4.1
+# Flask-S3==0.3.3
+# Flask-SocketIO==4.3.0
+# Flask-SQLAlchemy==2.3.2
+# Flask-SSLify==0.1.5
+# flask-talisman==0.6.0
+# Flask-Versioned==0.9.4.post20101221
+# Flask-Webpack==0.1.0
+# Flask-WTF==0.14.3
+# freshsales==1.0.0
+# git-lint==0.1.2
+# githubrelease==1.5.8
+# google-api-python-client==1.7.8
+# google-auth-httplib2==0.0.3
+# google-auth-oauthlib==0.3.0
+# google-cloud-aiplatform==1.38.1
+# google-search-results==2.4.2
+# greenlet==1.1.2
+# grpcio==1.58.0
+# gspread==3.1.0
+# gunicorn==19.9.0
+# hexbytes==0.3.0
+# html-linter==0.4.0
+# hyper==0.7.0
+# hyperlink==20.0.1
+# idna==3.4
+# idna-ssl==1.1.0
+# incremental==17.5.0
+# influxdb==5.3.0
+# intrinio-sdk==6.24.0
+# ipython==7.31.1
+# ipython-genutils==0.2.0
+# isort==4.3.4
+# itsdangerous==0.24
+# jedi==0.12.0
+# Jinja2==2.11.3
+# jmespath==0.9.3
+# jsondiff==2.0.0
+# jsonschema==3.2.0
+# lazy-object-proxy==1.3.1
+# logzero==1.7.0
+# logzio-python-handler==3.1.1
+# lru-dict==1.1.6
+# MarkupSafe==1.1.1
+# marshmallow==2.19.2
+# mccabe==0.6.1
+# mnemonic==0.18
+# more-itertools==4.2.0
+# msgpack==0.6.0
+# multidict==4.7.5
+# mysql-connector-python==8.0.33
+# ndg-httpsclient==0.5.0
+# netdisco==1.5.0
+# netifaces==0.10.7
+# newrelic==8.4.0
+# numerize==0.12
+# numpy==1.22.2
+# oauth2client==4.1.3
+# oauthlib==2.1.0
+# # TODO:(prathab) remove this
+# openai==1.11.1
+# openpyxl==3.0.7
+# opensearch-py==2.3.2
+# opentelemetry-distro==0.40b0
+# opentelemetry-exporter-prometheus-remote-write==0.40b0
+# opentelemetry-instrumentation-flask==0.40b0
+# OrderBook==0.1.2
+# pandas==1.4.2
+# paramiko==2.11.0
+# parsimonious==0.8.0
+# pathlib2==2.3.2
+# pbkdf2==1.3
+# pbr==4.2.0
+# pdfkit==1.0.0
+# pexpect==4.6.0
+# PGPy==0.6.0
+# pickleshare==0.7.4
+# pinecone-client==2.2.1  # defi only
+# pkginfo==1.4.2
+# pluggy==0.6.0
+# pre-commit==2.18.1
+# PrettyTable==0.7.2
+# prometheus-client==0.14.1
+# prompt-toolkit==1.0.15
+# protobuf==3.20.2
+# ptyprocess==0.6.0
+# pusher==2.0.1
+# py==1.11.0
+# py-ecc==1.4.3
+# py-solc==2.2.0
+# pyasn1==0.4.8
+# pyasn1-modules==0.2.8
+# pycodestyle==2.3.1
+# pycoin==0.80
+# pycparser==2.18
+# pycryptodome==3.14.1
+# pydantic==2.6.1
+# pyethash==0.1.27
+# pyflakes==1.6.0
+# PyGithub==1.55
+# Pygments==2.7.4
+# PyHamcrest==2.0.3
+# PyJWT==2.4.0
+# pylint==2.0.1
+# pymupdf==1.22.5
+# pyOpenSSL==23.2.0
+# pyotp==2.2.6
+# PyPDF2==3.0.1
+# PyPika==0.44.0
+# pyqldb==3.2.3
+# PySocks==1.6.8
+# pytest==3.6.3
+# pytest-cov==2.6.1
+# python-binance==0.7.10
+# python-bitcoinrpc==1.0
+# python-datauri==0.2.8
+# python-dateutil==2.8.2
+# python-dotenv==1.0.0
+# python-engineio==3.12.1
+# python-http-client==3.2.7
+# python-snappy==0.6.1
+# python-socketio==4.6.0
+# pytz==2018.5
+# PyYAML==5.4
+# ratelimiter==1.2.0.post0
+# redis==2.10.6
+# redis-py-cluster==1.3.4
+# redlock-py==1.0.8
+# regex==2018.7.11
+# requests==2.27.1
+# requests-oauthlib==0.8.0
+# requests-toolbelt==0.8.0
+# rlp==2.0.1
+# rsa==4.7
+# s3transfer==0.1.13
+# seaborn==0.9.0
+# selenium==3.141.0
+# semantic-version==2.6.0
+# sendgrid==5.4.1
+# sentence-splitter==1.4
+# sentry-sdk==1.40.4
+# service_identity==18.1.0
+# signalr-client-aio==0.0.1.6.2
+# signalr-client-threads==0.0.8
+# simplefix==1.0.12
+# simplegeneric==0.8.1
+# simplejson==3.16.0
+# six==1.12.0
+# SkPy==0.9
+# slackclient==2.7.1
+# socketIO-client==0.7.2
+# sortedcontainers==2.1.0
+# SQLAlchemy==1.3.3
+# sseclient==0.0.19
+# stellar-base==0.1.9.1
+# stevedore==1.29.0
+# stompest==2.3.0
+# structlog==23.2.0
+# tabulate==0.8.7
+# Telethon==1.29.2
+# template-remover==0.1.9
+# tenacity==8.0.1
+# termcolor==1.1.0
+# tiktoken==0.3.3
+# timeout-decorator==0.4.1
+# tldextract==3.0.1
+# toml==0.9.4
+# toolz==0.9.0
+# trafilatura==1.4.1
+# traitlets==4.3.2
+# trie==1.3.7
+# tweepy==4.12.1
+# twine==1.11.0
+# twisted==22.4.0
+# twitter==1.18.0
+# typing-extensions==4.9.0
+# tzlocal==1.5.1
+# uPnPClient==0.0.8
+# urllib3==1.26.18
+# user-agents==1.1.0
+# validate-email==1.3
+# wcwidth==0.1.7
+# web3==4.10.0
+# webargs==5.5.3
+# webassets==0.12.1
+# websocket-client==1.2.1
+# websockets==9.1
+# Werkzeug==0.15.5
+# wrapt==1.10.11
+# xlsxwriter==3.0.3
+# xmltodict==0.12.0
+# yarl==1.1.0
+# yfinance==0.2.35
+# youtube_transcript_api==0.6.0
+# yubico_client==1.13.0
+# zeroconf==0.20.0
+# zope.interface==4.7.2
