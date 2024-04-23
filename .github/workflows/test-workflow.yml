@@ -26,7 +26,7 @@ jobs:
 
       - name: Cache dependencies
         id: save_cache
-        uses: actions/cache/save@v3
+        uses: actions/cache@v3
         with:
           path: ${{ env.pythonLocation }}
           key: cache-key-${{ hashFiles('python/requirements.txt') }}
