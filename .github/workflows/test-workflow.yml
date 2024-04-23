@@ -50,8 +50,8 @@ jobs:
         with:
           token: ${{ secrets.WF_ACCESS_TOKEN }}
 
-      - name: Pring other job output
+      - name: Print other job output
         env:
           PY_PATH: ${{needs.build.outputs.python-path}}
         run: |
-          echo "$PY_PATH"
+          echo "$PY_PATH"; echo ${{needs.build.outputs.python-path}}
