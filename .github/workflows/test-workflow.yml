@@ -37,7 +37,7 @@ jobs:
 
       - name: Print default branch
         run:
-          echo ${{ env.pythonLocation }}
+          echo ${{ env.pythonLocation }}; cd ${{ env.pythonLocation }}; pwd
 
       - name: Test if dependency is installed back
         run: |
@@ -65,7 +65,7 @@ jobs:
 
       - name: List files in restored dir
         run: |
-          ls ${{ needs.build.outputs.cached-python-path }}
+          cd ${{ needs.build.outputs.cached-python-path }}; pwd
 
       - name: Test if dependency is installed back
         run: |
