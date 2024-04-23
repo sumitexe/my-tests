@@ -24,9 +24,16 @@ jobs:
         with:
           python-version: ${{ matrix.python-version }}
 
-      - name: Cache dependencies
-        id: save_cache
-        uses: actions/cache@v3
+      # - name: Cache dependencies
+      #   id: save_cache
+      #   uses: actions/cache@v3
+      #   with:
+      #     path: ${{ env.pythonLocation }}
+      #     key: cache-key-${{ hashFiles('python/requirements.txt') }}
+
+      - name: Restore python env
+        id: cache
+        uses: actions/cache/restore@v3
         with:
           path: ${{ env.pythonLocation }}
           key: cache-key-${{ hashFiles('python/requirements.txt') }}
