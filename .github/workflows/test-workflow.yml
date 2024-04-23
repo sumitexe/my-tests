@@ -10,7 +10,7 @@ jobs:
           - 3.9
     runs-on: ubuntu-latest
     outputs:
-      python-path: ${{ steps.setup_python.outputs.python-path }}
+      python-path: ${{ env.pythonLocation }}
     steps:
       - name: Checkout Step
         uses: actions/checkout@v3
