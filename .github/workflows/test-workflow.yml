@@ -11,18 +11,18 @@ jobs:
     runs-on: ubuntu-latest
     outputs:
       python-version: ${{ matrix.python-version }}
-      cached-python-path: ${{ env.pythonLocation }}
+      cached-python-path: /opt/hostedtoolcache/Python/3.9.19/x64
     steps:
       - name: Checkout Step
         uses: actions/checkout@v3
         with:
           token: ${{ secrets.WF_ACCESS_TOKEN }}
       
-      - name: Setup Python ${{ matrix.python-version }}
-        id: setup_python
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ matrix.python-version }}
+      # - name: Setup Python ${{ matrix.python-version }}
+      #   id: setup_python
+      #   uses: actions/setup-python@v4
+      #   with:
+      #     python-version: ${{ matrix.python-version }}
 
       # - name: Cache dependencies
       #   id: save_cache
@@ -35,16 +35,12 @@ jobs:
         id: cache
         uses: actions/cache/restore@v3
         with:
-          path: ${{ env.pythonLocation }}
+          path: /opt/hostedtoolcache/Python/3.9.19/x64
           key: cache-key-${{ hashFiles('python/requirements.txt') }}
       
       - name: Install dependencies
         run: |
           python -m pip install -r python/requirements.txt --use-deprecated=legacy-resolver
-
-      - name: Print default branch
-        run:
-          echo ${{ env.pythonLocation }}; cd ${{ env.pythonLocation }}; pwd
 
       - name: Test if dependency is installed back
         run: |
@@ -59,6 +55,12 @@ jobs:
         with:
           token: ${{ secrets.WF_ACCESS_TOKEN }}
 
+      - name: Setup Python 3.9
+        id: setup_python
+        uses: actions/setup-python@v4
+        with:
+          python-version: 3.9
+
       - name: Restore python env
         id: cache
         uses: actions/cache/restore@v3
@@ -69,10 +71,6 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install -r python/requirements.txt --use-deprecated=legacy-resolver
-
-      - name: List files in restored dir
-        run: |
-          cd ${{ needs.build.outputs.cached-python-path }}; pwd
 
       - name: Test if dependency is installed back
         run: |
