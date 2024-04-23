@@ -13,13 +13,13 @@ jobs:
       python-path: ${{ steps.setup_python.outputs.python-path }}
     steps:
       - name: Checkout Step
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.WF_ACCESS_TOKEN }}
       
       - name: Setup Python ${{ matrix.python-version }}
         id: setup_python
-        uses: actions/setup-python@v3
+        uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
           cache: 'pip'
@@ -46,7 +46,7 @@ jobs:
     needs: build
     steps:
       - name: Checkout Step
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           token: ${{ secrets.WF_ACCESS_TOKEN }}
 
