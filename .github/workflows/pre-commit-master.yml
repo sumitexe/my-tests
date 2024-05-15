@@ -1,0 +1,33 @@
+name: pre-commit-master
+
+on:
+  push:
+    branches: [master]
+
+jobs:
+  pre-commit-master:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v1
+    - uses: actions/setup-python@v1
+    - name: Setup node v16
+      uses: actions/setup-node@v2
+      with:
+        node-version: 16
+    - name: Install node modules
+      run: |
+        cd ./edison/react
+        node -v
+        npm install --legacy-peer-deps
+    - name: Install node modules
+      run: |
+        cd ./edison/apps/falconxone
+        node -v
+        npm install --legacy-peer-deps
+    - name: Install pre-commit
+      run: |
+        pip install pre-commit
+        pip freeze --local
+    - name: Run pre-commit
+      run: |
+        pre-commit run no-commit-to-branch --all-files

@@ -1,0 +1,8 @@
+default_language_version:
+  node: system
+exclude: ".*_pb2.py|.*_pb.js"
+repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.1.0 # Use the ref you want to point at
+    hooks:
+      - id: no-commit-to-branch
